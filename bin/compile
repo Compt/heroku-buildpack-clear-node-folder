@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+BUILD_DIR=$1
+
+echo "-----> Deleting the node folder..."
+rm -r "$BUILD_DIR/.heroku/node"
+echo "       Done!"
